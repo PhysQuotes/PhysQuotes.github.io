@@ -1,73 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Physics Quotes</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-anchor,.fa-coffee {font-size:200px}
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
 </style>
 </head>
 <body>
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">NOT WORKING: </a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">1st Semester</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">2nd Semester</a>
-  </div>
-
-  <!-- Navbar on small screens  -->
-   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">1st Semester</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">2nd Semester</a>
-  </div>
-</div> 
-
-<!-- Header -->
-<header class="w3-container w3-blue w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">Quotes by a not so innocent physics teacher</h1>
-</header>
-
-<!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>Quote Of The Day</h1>
-      <h5 class="w3-padding-32">I hope I didn’t hurt anybody, It was just too much fun.</h5>
-
-      <p class="w3-text-grey">-Mr. Evele</p>
-    </div>
-
-    <div class="w3-third w3-center">
+  <div class="w3-bar w3-blue w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Quote Of The Day</a>
+    <!-- <a href="#QOTD" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Quote Of The Day</a> -->
+    <a href="#1SQ" class="w3-bar-item w3-button w3-padding-large w3-hide-small">1st Semester Quotes</a>
+    <a href="#2SQ" class="w3-bar-item w3-button w3-padding-large w3-hide-small">2nd Semester Quotes</a>
+    <div class="w3-dropdown-hover w3-hide-small"> 
+      </div>
     </div>
   </div>
 </div>
 
-<!-- Second Grid -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-blue w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#QOTD" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">QOTD</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">1SQ</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">2SQ</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- The Quote Of The Day-->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="QOTD">
+    <h2 class="w3-wide">Quote Of The Day</h2>
+    <text-align> </text-align>
+    <p class="w3-justify w3-center"><i></i>I love beating Indian kids, there’s nothing like the blood of Indian kids on your fist.</p><br>
+      <p class="w3-opacity"><i>- Mr Evele</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+      </div>
     </div>
+  </div>
+
+  <!-- Semester 1 Quotes -->
+  <div class="w3-blue" id="1SQ">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">First Semester Quotes</h2>
+      <p class="w3-justify w3-center"><i></i>1. Yup, that was racially motivated<br>
+        2. Stupid Russian kid<br>
+       3. …the courtyard where I bury the bones of my students<br>
+       4. You’re such a nerd<br>
+       5. *slaps Dhruv*<br>
+        6. Uh oh, here comes news 8<br>
+       7. I’ll take out your kidneys<br>
+        8. Imma start smacking you<br>
+        9. Stranger things have happened, like Dhruv’s birth<br>
+        10. *hits Jaeden* That made my whole day<br>
+       11. I used to like you<br>
+       12. Go go go or you’ll get spanked<br>
+       13. Now you’re getting mutilated<br>
+       14. I hope I didn’t hurt anybody, It was just too much fun<br>
+       15. It’s got a nice balance of cuteness and senseless violence<br>
+        16. One swell fwoop<br>
+       17. *aggressively throws tennis ball at Brielle*<br>
+       18. I should start a meth empire<br>
+       19. I thought you were somewhat intelligent<br>
+        </p><br>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="2SQ">
+    <h2 class="w3-wide w3-center">Second Semester Quotes</h2>
+    <p class="w3-justify w3-center"><i></i>1. Yup, that was racially motivated<br>
+      2. Stupid Russian kid<br>
+     3. …the courtyard where I bury the bones of my students<br>
+     4. You’re such a nerd<br>
+     5. *slaps Dhruv*<br>
+      6. Uh oh, here comes news 8<br>
+     7. I’ll take out your kidneys<br>
+      8. Imma start smacking you<br>
+      9. Stranger things have happened, like Dhruv’s birth<br>
+      10. *hits Jaeden* That made my whole day<br>
+     11. I used to like you<br>
+     12. Go go go or you’ll get spanked<br>
+     13. Now you’re getting mutilated<br>
+     14. I hope I didn’t hurt anybody, It was just too much fun<br>
+     15. It’s got a nice balance of cuteness and senseless violence<br>
+      16. One swell fwoop<br>
+     17. *aggressively throws tennis ball at Brielle*<br>
+     18. I should start a meth empire<br>
+     19. I thought you were somewhat intelligent<br>
+      </p><br>
+
+
+        </div>
+      </div>
     </div>
   </div>
 </div>
-
-<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Credits: Dhruv Patel & Evan Williams</h1>
+  
+<!-- End Page Content -->
 </div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <p class="w3-medium">Credits: Dhruv Patel & Evan Williams</p>
 </footer>
 
 <script>
+
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
   var x = document.getElementById("navDemo");
@@ -75,6 +131,14 @@ function myFunction() {
     x.className += " w3-show";
   } else { 
     x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
   }
 }
 </script>
