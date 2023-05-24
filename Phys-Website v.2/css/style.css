@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: ‘Poppins’, sans-serif;
+    list-style: none;
+
+    text-decoration: none;
+}
+
+
+header{
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 9%;
+    background: rgb(0, 142, 255);
+    }
+    .homehead{
+        right: 0;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 9%;
+        background: linear-gradient(245.59deg, #099cf7 0%, #42a5e2 28.53%, #0a71e6 75.52%);
+        }
+  .qhead{
+        right: 0;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 9%;
+        background: rgb(0, 142, 255);
+        }
+        
+
+.logo{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.navlist{
+    display: flex;
+}
+
+.navlist a{
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.navlist a:hover{
+    border-bottom: 2px solid white;
+}
+
+#menu-icon{
+   color: white;
+   font-size: 35px;
+   z-index: 10001; 
+   cursor: pointer;
+   display: none;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #099cf7 0%, #42a5e2 28.53%, #0a71e6 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+section{
+    padding: 0 0%;
+}
+
+.hero-text h5{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 160px;
+    margin-left: 180px;
+    
+}
+
+.hero-text p{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+    color: white;
+    line-height: 1.9;
+    margin-top: 100px;
+    margin-left: 15px;
+    
+}
+
+.squote-text a{
+    margin-top: 10px;
+    margin-left: 300px;
+    display: inline-block;
+    color: white;
+    background: #4d7295;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.9;
+    font-size: 13px;
+    font-weight: 40;
+    border-radius: 15px;
+    text-transform: uppercase;    
+    }
+
+    .qotd-img
+    {
+        position: fixed;
+        margin-top: 120px;
+        margin-right: 12px;
+        height: 200px;
+        transform: rotate(65deg);
+    }
+
+.bottom-img
+{
+    position: fixed;
+    width: 1512px;
+    margin-top: 213px;
+    height: 230px;
+}
+
+
+.qbottom-img
+{
+    position: fixed;
+    width: 1512px;
+    margin-top: 560px;
+    height: 200px;
+}
